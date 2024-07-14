@@ -1,0 +1,31 @@
+.navbar-anchor {
+    margin-right : 80px;
+   
+}
+
+.navbar-nav a{
+    transition: .4s;
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-nav a::after {
+    position: absolute!important;
+    top: -48px;
+    left: 0;
+    background: #EF7B00;
+    width: 0%;
+    height: 3px;
+    content: "";
+    transition: .4s;
+
+}
+
+.navbar-nav a:hover {
+    color : #EF7B00!important;
+    
+}
+
+.navbar-nav a:hover:after {
+    width: 100%!important;
+}

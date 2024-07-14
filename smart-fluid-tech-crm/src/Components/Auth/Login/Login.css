@@ -1,0 +1,41 @@
+#login {
+    margin-top: 60px;
+}
+.custom-bg {
+    background-color:#EF7B00 ;
+    transition: .4s;
+}
+.custom-second-bg {
+    background-color: rgb(0, 37, 79) ;
+    transition: .4s;
+}
+
+.custom-bg:hover {
+    background-color:rgba(239, 123, 0,.9) ;
+}
+
+.custom-second-bg:hover {
+    background-color: rgba(0, 37, 79,.9) ;
+}
+#login .login_card {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+#login .card_title {
+    background-color : rgba(239, 123, 0,.4);
+    padding: 15px 0;
+}
+
+.login_lock {
+    font-size : 28px;
+    margin-right: 20px;
+    color: white;
+}
+.login_lock svg {
+    font-size : 58px;
+}
+.login_text {
+    font-family: "Poppins", sans-serif;
+}
